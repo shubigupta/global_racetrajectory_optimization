@@ -43,8 +43,8 @@ plot_opts = {"mincurv_curv_lin": False,         # plot curv. linearization (orig
 # file_paths["track_name"] = "berlin_2018"                                    # Berlin Formula E 2018
 # file_paths["track_name"] = "modena_2019"                                    # Modena 2019
 # file_paths["track_name"] = "f1_track"
-# file_paths["track_name"] = "xylr_3mm"
-file_paths["track_name"] = "wuchenPoints2mm"
+file_paths["track_name"] = "xylr_3mm"
+# file_paths["track_name"] = "wuchenPoints2mm"
 
 # set import options ---------------------------------------------------------------------------------------------------
 imp_opts = {"flip_imp_track": False,                # flip imported track to reverse direction
