@@ -23,7 +23,7 @@ if __name__=="__main__":
     my_data = genfromtxt(csv_file_path, delimiter=';')
     
 
-    # x_m; y_m; vx_mps; psi_rad;
-    my_array        =       np.vstack((my_data[:,1], my_data[:,2], my_data[:,5], my_data[:,3])).T
+    # x_m; y_m; vx_mps; psi_rad; kappa_radpm
+    my_array        =       np.vstack((my_data[:,1], my_data[:,2], my_data[:,5], my_data[:,3], my_data[:,4])).T
 
-    np.save("./trajectory.npy", my_array)
+    np.save("../../trajectory.npy", my_array)
